@@ -418,7 +418,7 @@ main {
 }
 
 
-.social-item .social-link:hover { color: var(--light-gray); }
+/* .social-item .social-link:hover { color: var(--light-gray); } */
 
 
 .social-icon {
@@ -427,11 +427,6 @@ main {
   display: inline-block;
   vertical-align: -2px;
   filter: grayscale(100%);
-}
-
-.social-icon: hover {
-	grayscale(10%);	     
-	brightness(90%);
 }
 
 /*-----------------------------------*\

@@ -429,7 +429,7 @@ main {
   filter: grayscale(100%);
 }
 
-.social-icon:hover { filter: brightness(90%); }
+.social-icon:hover { filter: grayscale(0%) brightness(90%); }
 
 
 /*-----------------------------------*\

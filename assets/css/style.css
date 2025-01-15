@@ -418,7 +418,7 @@ main {
 }
 
 
-.social-item .social-link:hover { color: var(--light-gray); }
+/* .social-item .social-link:hover { color: var(--light-gray); } */
 
 
 .social-icon {
@@ -428,8 +428,6 @@ main {
   vertical-align: -2px;
   filter: grayscale(100%);
 }
-
-.social-icon:hover { filter: grayscale(0%) brightness(90%); }
 
 
 /*-----------------------------------*\

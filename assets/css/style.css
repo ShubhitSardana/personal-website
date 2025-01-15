@@ -429,6 +429,8 @@ main {
   filter: grayscale(100%);
 }
 
+.social-icon:hover { color: var(--light-gray); }
+
 
 /*-----------------------------------*\
   #NAVBAR

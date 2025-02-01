@@ -1693,6 +1693,23 @@ textarea.form-input::-webkit-resizer { display: none; }
   .timeline-text { max-width: 700px; }
 
 }
+  
+.image-box {
+    background: var(--bg-gradient-onyx);
+    border-radius: 15px;
+    height: 225px;
+    width: 180px;
+    position: relative;
+    overflow: hidden;
+  }
+
+.image-box img {
+    position: relative;
+    width: 180px;
+    height: auto;
+/*     left: -40%; */
+/*     top: -37%; */
+  }
 
 /* Miscellaneous */
 
@@ -1782,7 +1799,7 @@ textarea.form-input::-webkit-resizer { display: none; }
   .image-box {
     background: var(--bg-gradient-onyx);
     border-radius: 15px;
-    height: 160px;
+    height: 175px;
     width: 140px;
     position: relative;
     overflow: hidden;
@@ -1790,10 +1807,10 @@ textarea.form-input::-webkit-resizer { display: none; }
 
   .image-box img {
     position: relative;
-    width: 200px;
+    width: 140px;
     height: auto;
-    left: -40%;
-    top: -37%;
+/*     left: -40%; */
+/*     top: -37%; */
   }
 
   .info-content .name {

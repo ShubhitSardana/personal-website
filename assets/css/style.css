@@ -1159,7 +1159,7 @@ textarea.form-input::-webkit-resizer { display: none; }
 
   .image-box img {
     position: relative; 
-    height: auto;
+    height: 267px;
     width: 200px;
 /*     left: -40%; */
 /*     top: -37%; */
@@ -1706,7 +1706,7 @@ textarea.form-input::-webkit-resizer { display: none; }
 .image-box img {
     position: relative;
     width: 160px;
-    height: auto;
+    height: 213px;
 /*     left: -40%; */
 /*     top: -37%; */
   }
@@ -1804,7 +1804,7 @@ textarea.form-input::-webkit-resizer { display: none; }
   .image-box img {
     position: relative;
     width: 140px;
-    height: auto;
+    height: 187px;
 /*     left: -40%; */
 /*     top: -37%; */
   }

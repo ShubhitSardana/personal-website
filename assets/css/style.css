@@ -1784,7 +1784,7 @@ textarea.form-input::-webkit-resizer { display: none; }
    */
 
   .sidebar {
-    max-height: 220px;
+    max-height: 227px;
     /* margin-bottom: 20px; */
   }
 
@@ -1795,7 +1795,7 @@ textarea.form-input::-webkit-resizer { display: none; }
   .image-box {
     background: var(--bg-gradient-onyx);
     border-radius: 15px;
-    height: 175px;
+    height: 187px;
     width: 140px;
     position: relative;
     overflow: hidden;

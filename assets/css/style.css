@@ -1697,7 +1697,7 @@ textarea.form-input::-webkit-resizer { display: none; }
 .image-box {
     background: var(--bg-gradient-onyx);
     border-radius: 15px;
-    height: 200px;
+    height: 213px;
     width: 160px;
     position: relative;
     overflow: hidden;

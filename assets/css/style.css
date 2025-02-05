@@ -1159,7 +1159,7 @@ textarea.form-input::-webkit-resizer { display: none; }
 
   .image-box img {
     position: relative; 
-    height: 250px;
+    height: auto;
     width: 200px;
 /*     left: -40%; */
 /*     top: -37%; */

@@ -1708,23 +1708,6 @@ textarea.form-input::-webkit-resizer { display: none; }
   .timeline-text { max-width: 700px; }
 
 }
-  
-.image-box {
-    background: var(--bg-gradient-onyx);
-    border-radius: 15px;
-    height: 215px;
-    width: 161px;
-    position: relative;
-    overflow: hidden;
-  }
-
-.image-box img {
-    position: relative;
-    width: 161px;
-    height: 215px;
-/*     left: -40%; */
-/*     top: -37%; */
-  }
 
 /* Miscellaneous */
 

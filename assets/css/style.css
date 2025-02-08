@@ -291,7 +291,7 @@ main {
   transition: var(--transition-2);
 }
 
-.sidebar.active { max-height: 535px; }
+.sidebar.active { max-height: 546px; }
 
 .sidebar-info {
   position: relative;
@@ -1159,7 +1159,7 @@ textarea.form-input::-webkit-resizer { display: none; }
     /* margin-bottom: 30px; */
   }
 
-  .sidebar.active { max-height: 820px; }
+  .sidebar.active { max-height: 872px; }
 
   .sidebar-info { gap: 25px; }
 

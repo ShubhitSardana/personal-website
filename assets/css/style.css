@@ -1044,7 +1044,22 @@ textarea.form-input::-webkit-resizer { display: none; }
 .form-btn:disabled:hover::before { background: var(--bg-gradient-jet); }
 
 
+.image-box {
+    background: var(--bg-gradient-onyx);
+    border-radius: 15px;
+    height: 253px;
+    width: 190px;
+    position: relative;
+    overflow: hidden;
+  }
 
+.image-box img {
+    position: relative;
+    width: 190px;
+    height: 253px;
+/*     left: -40%; */
+/*     top: -37%; */
+  }
 
 
 /*-----------------------------------*\
@@ -1697,16 +1712,16 @@ textarea.form-input::-webkit-resizer { display: none; }
 .image-box {
     background: var(--bg-gradient-onyx);
     border-radius: 15px;
-    height: 213px;
-    width: 160px;
+    height: 215px;
+    width: 161px;
     position: relative;
     overflow: hidden;
   }
 
 .image-box img {
     position: relative;
-    width: 160px;
-    height: 213px;
+    width: 161px;
+    height: 215px;
 /*     left: -40%; */
 /*     top: -37%; */
   }

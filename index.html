@@ -142,35 +142,28 @@
             </a>
           </li>
         </ul>
-
       </div>
-
     </aside>
-
-
-
-    <!--
-      - #main-content
-    -->
 
     <div class="main-content">
 
-      <!--
-        - #NAVBAR
-      -->
-
+<!-- Navbar -->
       <nav class="navbar">
 
         <ul class="navbar-list">
 
           <li class="navbar-item">
-            <button class="navbar-link  active" data-nav-link="about">About</button>
+            <button class="navbar-link active" data-nav-link="about">About</button>
           </li>
 
           <li class="navbar-item">
             <button class="navbar-link" data-nav-link="cv">CV</button>
           </li>
           
+          <li class="navbar-item">
+            <button class="navbar-link " data-nav-link="blog">Blog</button>
+          </li>
+
           <li class="navbar-item">
             <button class="navbar-link" data-nav-link="contact">Contact</button>
           </li>
@@ -180,11 +173,8 @@
       </nav>
 
 
-      <!--
-        - #ABOUT
-      -->
-
-      <article class="about  active" data-page="about">
+<!-- about -->
+      <article class="about active" data-page="about">
 
         <header>
           <h2 class="h2 article-title">About me</h2>
@@ -196,10 +186,10 @@
           </p>
 
           <p>
-            During my time at IISER, I've had the chance to dive deep into these interests through academics and internships, especially working on PTA exoplanets. It’s been an incredible experience collaborating with amazing researchers and learning from them.
+            During my time at IISER, I've had the chance to dive deep into these interests through academics and internships, especially working on PTA exoplanets. It's been an incredible experience collaborating with amazing researchers and learning from them.
           </p>
           <p>
-            Astronomy has always been more than just a field of study for me—it's a lifelong passion. I’m excited to keep exploring the cosmos and contributing to uncovering its many secrets.
+            Astronomy has always been more than just a field of study for me—it's a lifelong passion. I'm excited to keep exploring the cosmos and contributing to uncovering its many secrets.
           </p>
           <p>
             <strong>I use Arch BTW! </strong>
@@ -207,15 +197,28 @@
         </section>
 
 
-        <!--
-          - Recent-projects
-        -->
+        <!-- Recent Projects -->
 
         <section class="current-projects">
 
-          <h3 class="h3 current-projects-title">Recent Projects</h3>
+          <h3 class="h3 current-projects-title">Ongoing Projects</h3>
 
           <ul class="current-projects-list">
+
+            <li class="publications-item">
+              <div class="content-card" data-publications-item>
+                <h4 class="h4 current-projects-item-title publications-item-title" data-publications-title>Resolving the hubble tension using Pulsar Timing</h4>
+                <div class="publications-text" data-publications-text>
+                  <time datetime="2024-11-30">May 29, 2025</time>
+
+                  <p class="current-projects-item-text">
+                    This project explores the possibility of measuring the Hubble constant using pulsar timing data, independent of traditional cosmological probes. By modeling the effect of cosmic expansion on pulsar time-of-arrival (TOA) measurements, I simulate the Hubble-induced delay and extract its signature from residuals using quadratic fitting. This approach offers an alternative pathway to address the Hubble tension and complements existing methods such as using Type 1A supernovae as standard candles.
+ 
+                  </p>
+                  </div>
+              </div>
+
+            </li>
 
             <li class="publications-item">
               <div class="content-card" data-publications-item>
@@ -234,9 +237,7 @@
         </section>
 
 
-        <!--
-          - publications
-        -->
+        <!-- publications -->
 
         <section class="publications">
 
@@ -290,16 +291,27 @@
         </section>
 
 
-        <!-- 
-        - Talks
-        -->
+        <!-- Talks -->
         
         <section class="publications">
 
           <h3 class="h3 publications-title">Conference Presentations</h3>
 
           <ul class="publications-list has-scrollbar">
+            <li class="publications-item">
+              <div class="content-card" data-publications-item>
 
+                <h4 class="h4 publications-item-title" data-publications-title>InPTA bi-weekly meeting</h4>
+                <div class="publications-text" data-publications-text>
+                  <time datetime="2024-10-17">March 5, 2025</time>
+
+                  <p>
+                    Presented in the InPTA’s bi-weekly meeting focusing on the importance of including the effects of solar wind in the pulsar timing. Mentioned the importance of integrating the effects due to solar wind plasma and electron density on the dispersion measure (dm) of signals from pulsars which lie very close to the solar disk. Showed the results from the first version of the script I built to analyse this process. 
+                  </p>
+                </div>
+
+              </div>
+            </li>
             <li class="publications-item">
               <div class="content-card" data-publications-item>
 
@@ -334,44 +346,21 @@
 
         </section>
 
-        <!--
-          - publications modal
-        -->
+        <!-- publications modal -->
 
-        <div class="modal-container" data-modal-container>
 
-          <div class="overlay" data-overlay></div>
-
-          <section class="publications-modal">
-
-            <button class="modal-close-btn" data-modal-close-btn>
-              <ion-icon name="close-outline"></ion-icon>
-            </button>
-
-            <div class="modal-content">
-
-              <h4 class="h3 modal-title" data-modal-title></h4>
-
-              <div data-modal-text>
-              </div>
-            </div>
-          </section>
-        </div><section class="clients"></section>
-        </section>
       </article>
 
 
 
-      <!--
-        - #CV
-      -->
-
+<!-- CV -->
       <article class="CV" data-page="cv">
 
         <header>
           <h2 class="h2 article-title">Curriculum Vitae (CV)</h2>
         </header>
-<!-- research exp -->
+
+
         <section class="timeline">
 
           <div class="title-wrapper">
@@ -489,7 +478,8 @@
           </ol>
 
         </section>
-<!-- education -->
+
+        <!-- education -->
         <section class="timeline">
 
           <div class="title-wrapper">
@@ -568,7 +558,7 @@
 
         </section>
 
-<!-- skills -->
+        <!-- skills -->
         <section class="skill">
 
           <h3 class="h3 skills-title">My skills</h3>
@@ -622,22 +612,122 @@
 
 
 
-
-
-      <!--       
-        - #PORTFOLIO
-      -->
-
+<!-- PORTFOLIO -->
       <article class="portfolio" data-page="portfolio">
             <button class="filter-select" data-select>
             </button>
       </article>
 
-      
-      <!--
-        - #CONTACT
-      -->
 
+<!-- Blog -->
+
+      <article class="blog" data-page="blog">    
+        <header>
+          <h2 class="h2 article-title">Blog</h2>
+        </header>
+
+        <section class="about-text">
+
+          <p>
+            This is where I share what I'm working on, thinking about, or just find fascinating. You'll find a mix of astrophysics, cosmology, Linux tweaks, coding experiments, and the occasional rant about how weird (and wonderful) the universe is.
+            </p>
+            
+            <p>
+            I'm especially into things like gravitational waves, pulsar timing arrays, and anything that helps us understand how the universe is expanding. If you're curious about how cosmic clocks might help fix the Hubble tension — you're in the right place.
+            </p>
+            
+            <p>
+            I'm also a bit of a Linux distro-hopper (okay, maybe more than a bit). I've tried most of them, broken quite a few, and learned a lot in the process. Expect posts on setups, configs, and occasional terminal wizardry.
+            </p>
+            
+            <p>
+            This blog is kind of my personal logbook — research, projects, papers, late-night thoughts, and tech setups all end up here. If any of that sounds interesting, stay tuned.
+            </p>
+            
+            <p><strong>I post often. The sky’s not the limit — it’s the playground.</strong></p>
+        </section>
+
+
+        <!-- Blog rp -->
+
+
+        <section class="blog-rp">
+
+          <h3 class="h3 current-projects-title">Research works I found interesting</h3>
+
+          <ul class="blog-rp-list">
+
+       
+            <li class="blog-rp-item">
+              <div class="content-card" data-publications-item>
+                <h4 class="h4 blog-rp-item-title" data-publications-title>Cosmic Clocks Could Help Solve the Universe's Biggest Speeding Discrepancy!
+                </h4>
+                  <div class="rp-content-card">
+                          <div class="current-projects-item-text publications-text" data-publications-text>
+                            <time datetime="2024-11-30">May 29, 2025</time>
+                              <div>
+                              <p>Imagine trying to measure how fast a city is growing. One team uses old maps (like clues from the early universe), while another surveys its current expansion. What if their answers don't match? That's the "Hubble Tension" in cosmology – a major disagreement on how fast our universe is expanding today (the Hubble constant, H₀).</p>
+
+                              <p>So, how can we get an independent check? My research explores using pulsars: incredibly dense, spinning remnants of dead stars. They flash beams of light like cosmic lighthouses, and we detect their pulses with amazing regularity – they're nature's most precise clocks.</p>
+                            
+                              <p>Here's the core idea: as the universe expands, the light from a distant pulsar stretches, slightly delaying each pulse's arrival. Crucially, the universe's expansion rate isn't constant; it's accelerating! My work shows this changing expansion should cause a tiny, cumulative, time-dependent shift in the pulsar signals over many years. This would appear as a subtle drift in when we expect the pulses versus when they actually arrive.</p>
+                            
+                              <p>The "slope" of this drift is directly tied to the Hubble constant. If we can measure this incredibly small effect, we’ll have a completely new way to determine H₀. It’s like adding an expert surveyor who listens to the universe's own ticking, potentially helping to finally resolve the Hubble Tension.</p>
+                              </div>
+                              <div class="blog-rp-item-image-div-p" data-publications-item>
+                                  <a href="./assets/images/hubble_comparison.png" target="_blank" title="Click to open image in new tab to have a clearer view">
+                                    <img src="./assets/images/hubble_comparison.png" alt="Shubhit Sardana" class="no-invert" data-modal-img>
+                                  </a>
+                              </div>
+                              <p>This graph shows the key idea: as the universe expands, light from distant pulsars (cosmic lighthouses) gets stretched. Over many years, this causes a tiny, cumulative delay in their pulse arrival times, seen here as a clear downward slope (the black line). The steepness of this slope tells us how fast the universe is expanding (the Hubble constant, H₀). In this test, the method accurately recovered the known expansion rate, showing its potential as a new cosmic ruler.</p>
+                          </div>
+                          <div class="blog-rp-item-image-div">
+                            <img src="./assets/images/hubble_comparison.png" alt="Shubhit Sardana" class="no-invert" data-modal-img title="Open image in new tab to have a clearer view">
+                          </div>
+                  </div>
+              </div>
+            </li>
+            <li class="blog-rp-item">
+              <div class="content-card" data-publications-item>
+                <h4 class="h4 blog-rp-item-title" data-publications-title>Is Dark Energy a Cosmic Illusion? Supernovae Hint at a New Universe Model
+                </h4>
+                  <div class="rp-content-card">
+                          <div class="current-projects-item-text publications-text" data-publications-text>
+                            <time datetime="2024-11-30">Mar 7, 2025</time>
+
+                            <p>For decades, scientists have believed a mysterious "dark energy" is pushing our universe to expand ever faster. This is a cornerstone of the standard ΛCDM (Lambda Cold Dark Matter) model. But what if there's another explanation?</p>
+                          
+                            <p>New research, analyzing data from distant exploding stars (Type Ia supernovae – our "cosmic lighthouses"), suggests an alternative model called "timescape cosmology" fits the observations better. Instead of dark energy, timescape proposes that the universe's clumpy structure – vast empty voids and dense galaxy filaments – influences its overall expansion through what's called "backreaction." Essentially, the energy from expanding voids could be what we've been interpreting as dark energy.</p>
+                          
+                            <p>Using an improved statistical method on the comprehensive Pantheon+ supernovae dataset, scientists found "very strong evidence" favoring the timescape model over the standard dark energy model. Even when looking only at very distant supernovae, where the universe should be smoother, timescape still held an edge.</p>
+                          
+                            <p>This doesn't mean dark energy is dead, but it’s a significant nudge. These findings suggest we might need to fundamentally rethink how the universe works on the grandest scales, potentially opening a new chapter in cosmology.</p>
+
+                              <div class="blog-rp-item-image-div-p" data-publications-item>
+                                  <a href="./assets/images/timescape.png" target="_blank" title="Click to open image in new tab to have a clearer view">
+                                    <img src="./assets/images/timescape.png" alt="Shubhit Sardana" class="no-invert" data-modal-img>
+                                  </a>
+                                  
+                              </div>
+                              <p>This graph shows how our new analytical method changes the strength of evidence for the 'timescape' model compared to an earlier study. The solid black line (using all supernovae) shows our new method finds much stronger support for timescape. This highlights the importance of the improved statistical techniques used in this research.</p>
+                              <p><strong>Y-axis represents the "Strength of Evidence for Timescape Model"</strong></p> <p><strong>X-axis represents "How much of the nearby universe is included (left = more nearby, right = only distant)."</strong></p>
+                          </div>
+                          <div class="blog-rp-item-image-div">
+                            <img src="./assets/images/timescape.png" alt="Shubhit Sardana" class="no-invert" data-modal-img title="Open image in new tab to have a clearer view">
+                          </div>
+                  </div>
+              </div>
+            </li>
+
+
+          </ul>
+        </section>
+
+      </article>
+
+
+
+<!-- CONTACT -->
       <article class="contact" data-page="contact">
 
         <header>
@@ -660,6 +750,25 @@
 
       </article>
 
+      <div class="modal-container" data-modal-container>
+        <div class="overlay" data-overlay></div>
+        <section class="publications-modal">
+          <button class="modal-close-btn" data-modal-close-btn>
+            <ion-icon name="close-outline"></ion-icon>
+          </button>
+      
+          <!-- Image will go here -->
+          <img src="" alt="Modal Image" data-modal-img style="max-width: 100%; height: auto; display: none; margin-bottom: 15px;">
+          <!-- Basic styling added, initially hidden -->
+      
+          <div class="modal-content">
+            <h4 class="h3 modal-title" data-modal-title></h4>
+            <div data-modal-text></div>
+          </div>
+        </section>
+      </div>
+
+
     </div>
          <!--  Floating Theme Toggle Button -->
     <div id="theme-toggle-container">
@@ -668,6 +777,11 @@
       </button>
     </div>
   </main>
+
+
+
+
+
 
 
   <!--

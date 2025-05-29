@@ -1691,6 +1691,12 @@ textarea.form-input::-webkit-resizer { display: none; }
  * responsive larger than 1250px screen
  */
 
+ .blog-rp-item-image-div img {
+  max-width: 30vh;
+  border-radius: 10px;
+  display: block;
+}
+
 @media (min-width: 1250px) {
 
   /**

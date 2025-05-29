@@ -1692,7 +1692,7 @@ textarea.form-input::-webkit-resizer { display: none; }
  */
 
  .blog-rp-item-image-div img {
-  max-width: 30vh;
+  max-width: 20vw;
   border-radius: 10px;
   display: block;
 }
@@ -2153,4 +2153,7 @@ textarea.form-input::-webkit-resizer { display: none; }
   .google-form {
     height: 60em;
   }
+  
 }
+
+
